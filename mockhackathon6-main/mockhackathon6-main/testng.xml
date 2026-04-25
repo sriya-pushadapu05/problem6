@@ -1,0 +1,17 @@
+<suite name="Suite">
+
+    <listeners>
+        <listener class-name="listeners.TestListener"/>
+    </listeners>
+
+    <test name="AllTests">
+        <classes>
+            <class name="tests.LoginTest"/>
+            <class name="tests.AlertTest"/>
+            <class name="tests.CheckboxTest"/>
+            <class name="tests.UploadTest"/>
+            <class name="tests.DynamicTest"/>
+        </classes>
+    </test>
+
+</suite>
